@@ -1,0 +1,136 @@
+/* Common parameters */
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: seashell;
+  font-size: 22px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  opacity: 0.9;
+  margin: 0;
+}
+
+/* Navigation section */
+.logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+}
+
+.navigation-link {
+  color: seashell;
+  margin: 0 30px;
+}
+
+nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header {
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+}
+
+/* Main */
+main {
+  position: relative;
+  top: 69px;
+  margin: 0;
+}
+
+/* First banner section */
+.first-banner {
+  background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-mission {
+  flex-basis: 100%;
+  background-color: black;
+}
+
+/* Middle section */
+.middle-section {
+  margin-top: 100px;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  margin: 10px;
+}
+
+.card img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+/* Second banner */
+.second-banner {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 100px auto 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.locations {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.downtown,
+.east,
+.oakdale {
+  background-color: black;
+  width: 300px;
+  margin: 15px 40px;
+  opacity: 1;
+}
+
+/* Contact */
+.contact {
+  height: 200px;
+  margin: 0 auto 0 auto;
+  overflow: hidden;
+}
+
+/* Footer */
+footer {
+  float: left;
+  margin-left: 20px;
+}
